@@ -1,0 +1,32 @@
+@media(min-width: 768px) {
+    body {
+        background-image: url(./images/bg-desktop.svg);
+        background-size: 88rem;
+        background-position-x: -5px;
+    }
+    .img-container--logo {
+        margin-left: 70px;
+    }
+    .main-container {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        margin: 0 auto;
+        height: 360px;
+        justify-content: end;
+    }
+    .img-container--mockups {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .text-main-container {
+        text-align: initial;
+        margin: 0 ;
+        margin-top: 20px;
+    }
+    footer {
+        height: 65px;
+        justify-content: end;
+        align-items: flex-end;
+        margin-left: -50px;
+    }
+}

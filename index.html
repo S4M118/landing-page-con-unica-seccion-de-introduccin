@@ -3,33 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <title>
       Frontend Mentor | Huddle landing page with single introductory section
     </title>
-
-    <!-- No dude en eliminar estos estilos o personalizarlos en su propia hoja de estilo 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link rel="stylesheet" href="./mobile.css">
+    <link rel="stylesheet" href="./style.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="./desktop.css" media="screen and (min-width: 1400px)">
   </head>
   <body>
-    Build The Community Your Fans Will Love Huddle re-imagines the way we build
-    communities. You have a voice, but so does your audience. Create connections
-    with your users as you engage in genuine discussion. Register
+    <header class="header-container--imgs">
+      <img class="img-container--logo" src="images/logo.svg" alt="">
+    </header>
+    <main class="main-container">
+      <img class="img-container--mockups" src="images/illustration-mockups.svg" alt="">
+      <div class="text-main-container">
+        <h1>Build The Community Your Fans Will Love</h1>
+        <p>Huddle re-imagines the way we build
+        communities. You have a voice, but so does your audience. Create connections
+        with your users as you engage in genuine discussion.</p>
+        <button class="buttom-registration">Registrar</button>
+      </div>
+  </main>
+  <footer>
+    <a class="icon--container" href="#"><img src="./icons/logo-facebook.svg" alt=""></a>
+    <a class="icon--container" href="#"><img src="./icons/logo-twitter.svg" alt=""></a>
+    <a class="icon--container" href="#"><img src="./icons/logo-instagram.svg" alt=""></a>
+  </footer>
   </body>
 </html>
